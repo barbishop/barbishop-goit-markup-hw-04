@@ -285,6 +285,7 @@ button {
 .content-list {
   width: 264px;
 }
+
 .content-wrapper {
   display: flex;
   justify-content: center;
@@ -342,15 +343,10 @@ button {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
- */
-}
-
-.team-card:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .social-link {
   width: 40px;
   height: 40px;
@@ -434,6 +430,7 @@ button {
   gap: 48px 24px;
   flex-wrap: wrap;
 }
+
 .portfolio-ul-list {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -441,6 +438,8 @@ button {
 
 .portfolio-ul-list:hover {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-wrapper {
