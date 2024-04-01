@@ -499,15 +499,13 @@ button {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
 }
+
 .footer .container {
   display: flex;
 }
 .footer-logo {
-  display: block;
   width: 264px;
-  height: 112px;
   margin-right: 120px;
 }
 
@@ -553,9 +551,8 @@ button {
   align-items: center;
 }
 
-.footer-social {
-  display: block;
-}
+/* .footer-social {
+} */
 
 .footer-social-link {
   width: 40px;
