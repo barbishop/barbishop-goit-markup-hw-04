@@ -506,6 +506,7 @@ button {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -556,8 +557,9 @@ button {
   align-items: center;
 }
 
-/* .footer-social {
-} */
+.footer-link-item {
+  fill: #f4f4fd;
+}
 
 .footer-social-link {
   width: 40px;
