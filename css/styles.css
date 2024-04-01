@@ -504,6 +504,7 @@ button {
 .footer .container {
   display: flex;
 }
+
 .footer-logo {
   width: 264px;
   margin-right: 120px;
@@ -522,6 +523,7 @@ button {
   display: inline-block;
   margin-right: auto;
 }
+
 .footer-logo-white {
   display: inline-block;
   font-family: "Raleway", sans-serif;
