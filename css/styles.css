@@ -612,16 +612,15 @@ button {
   position: fixed;
   inset: 0;
   background-color: rgba(46, 47, 66, 0.4);
-}
-/* opacity: 0;
+  opacity: 0;
   pointer-events: none;
-  visibility: hidden; 
-} */
+  visibility: hidden;
+}
 
 .backdrop.is-open {
-  /* opacity: 1;
+  opacity: 1;
   pointer-events: initial;
-  visibility: visible; */
+  visibility: visible;
 }
 
 .modal {
@@ -704,15 +703,17 @@ button {
   flex-shrink: 0;
   font-size: 12px;
   padding: 11px 34px;
+  border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background: transparent;
   outline: transparent;
 }
 
-.modal-field-input:hover,
+/* .modal-field-input:hover, */
 .modal-field-input:focus {
   border: 1px solid #4d5ae5;
 }
+
 .modal-field-icon {
   position: absolute;
   top: 50%;
@@ -720,8 +721,7 @@ button {
   transform: translateY(-50%);
 }
 
-.modal-field-icon:hover,
-.modal-field-icon:focus {
+.modal-field-input:focus + .modal-field-icon {
   fill: #4d5ae5;
 }
 
@@ -738,6 +738,11 @@ button {
   outline: transparent;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-text:hover,
+.modal-text:focus {
+  border: 1px solid #4d5ae5;
 }
 
 .modal-message::placeholder {
